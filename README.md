@@ -14,3 +14,8 @@ int x,y,a,b;
 int rounds=0;
 bool player;
 bool WinCheck()
+{
+  if(rounds>=9)
+  {
+    cout<<"End of the game, nobody wins."<<endl;
+  }
