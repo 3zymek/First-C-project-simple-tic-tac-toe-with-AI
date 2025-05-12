@@ -14,10 +14,3 @@ int x,y,a,b;
 int rounds=0;
 bool player;
 bool WinCheck()
-{
-    if(rounds>=9)
-    {
-        cout<<"End of the game, nobody wins."<<endl;
-    }
-    if(game[0][0]=='X'&&game[0][1]=='X'&&game[0][2]=='X')
-        return true;
